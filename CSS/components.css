@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto&display=swap');
 
-@import "/CSS/style.css";
 @import "/Components/Card/card.css";
 @import "/Components/Avatar/Avatar.css";
 @import "/Components/Badge/badge.css";
