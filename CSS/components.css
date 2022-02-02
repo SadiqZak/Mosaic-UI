@@ -53,7 +53,7 @@ body{
     padding: 1rem;
     border-radius: 0.625rem;
     border: 1px solid var(--lynx-grey);
-    background-color: var(--lynx-white);
+    /* background-color: var(--lynx-white); */
 }
 
 .code-snippets{
@@ -76,9 +76,11 @@ body{
 /* border colors */
 :root{
     --primary-color:#FF3B30;
+    --primary-lt:#fa5b53;
     --lynx-primary:#ffd4d1;
     --secondary-color:#FFF6EA;
     --action-color:#3B82F6;
+    --action-lt:#5e97f6;
     --lynx-action:#d0e0fc;
     --grey-color:#9A9A9A;
     --black-color:#282828;
