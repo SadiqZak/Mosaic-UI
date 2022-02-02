@@ -1,0 +1,136 @@
+.card{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: max-content; 
+    cursor: pointer;
+}
+
+.card-text-overlay{
+    position: relative;
+}
+
+.card-position-absolute{
+    position: absolute;
+    top: 11.875rem;
+    left: 0.5rem;
+}
+
+.card-flex-column{
+    flex-direction: column;
+}
+
+/* -----------------------card badge------------------------ */
+.card-badge{
+    position: absolute;
+    font-size: 1rem;
+    background-color:var(--white-color);
+    cursor: pointer;
+}
+
+.badge-right{
+    top: 0.9375rem;
+    right: 0.625rem;
+    color:var(--lynx-grey);
+    background-color: var(--white-color);
+}
+
+.badge-left{
+    top: 15px;
+    left: -0.625rem;
+    color:black;
+    background-color: var(--white-color);
+}
+
+/* --------------card image-----------------*/
+
+.card-img-large{
+    width: 100%;
+    height: 15.625rem; 
+}
+
+.card-img-small{
+    width: 30%;
+    height: 6.25rem; 
+}
+
+
+/* ------------------ card body------------------ */
+.card-body{
+    display: flex;
+    background-color: var(--white-color);
+    cursor: pointer;
+}
+
+.card-body:hover{
+    background-color: var(--lynx-white)
+}
+
+/*----------------------- card footer----------------- */
+
+.card-footer{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-action{
+    flex-grow: 4;
+}
+
+.card-footer a{
+    width: 100%;
+    color: var(--white-color);
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+/*----------------- card button-------------------- */
+.card-btn{
+    font-family: sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.3125rem;
+    color:var(--purple-color);
+    padding: 0.625rem 0.3125rem 0.625rem 0.3125rem;
+    background-color: var(--white-color);
+}
+
+.card-btn:hover{
+    cursor: pointer;
+    background-color: var(--purple-lt);
+}
+
+/*--------------------- card icons---------------*/
+.card-icons{
+    flex-grow: 1;
+}
+
+.card-icons i{
+    font-size: 1.2rem;
+}
+
+.card-icons button{
+    border: none;
+    background-color: var(--white-color);
+    padding: 0.625rem;
+    
+}
+
+.card-icons button:last-child{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.card-icons button:hover{
+    cursor: pointer;
+    background-color: var(--grey-lt);
+    border-radius: 50%;
+}

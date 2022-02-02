@@ -53,7 +53,6 @@ body{
     padding: 1rem;
     border-radius: 0.625rem;
     border: 1px solid var(--lynx-grey);
-    /* background-color: var(--lynx-white); */
 }
 
 .code-snippets{
@@ -83,6 +82,7 @@ body{
     --action-lt:#5e97f6;
     --lynx-action:#d0e0fc;
     --grey-color:#9A9A9A;
+    --grey-lt:#e6e6e6;
     --black-color:#282828;
     --white-color:#FFFFFF;
     --lynx-white:#F7F7F7;
@@ -92,6 +92,8 @@ body{
     --lynx-green:#b2f8d6;
     --yellow-color:#F4B400;
     --lynx-yellow:#ffeebc;
+    --purple-color:#8b1bfa;
+    --purple-lt:#f2ecf7;
 }
 
 /* typography */
@@ -165,9 +167,16 @@ h2, h3, h4{
 }
 
 /* background color */
+.bg-lynx-white{
+    background-color: var(--grey-lt);
+}
 
 .bg-blue{
     background-color: var(--action-color);
+}
+
+.bg-lynx-blue{
+    background-color: var(--action-lt);
 }
 
 .bg-white{
@@ -178,6 +187,9 @@ h2, h3, h4{
     background-color: var(--primary-color);
 }
 
+.bg-lynx-red{
+    background-color: var(--lynx-primary);
+}
 .bg-green{
     background-color: var(--green-color);
 }
@@ -188,6 +200,10 @@ h2, h3, h4{
 
 .color-blue{
     color: var(--action-color);
+}
+
+.color-red{
+    color: var(--primary-color);
 }
 
 .center{
@@ -267,4 +283,8 @@ h2, h3, h4{
 
 .border-rd{
     border-radius: 50%;
+}
+
+.border-1{
+    border: 1px solid var(--black-color) ;
 }
