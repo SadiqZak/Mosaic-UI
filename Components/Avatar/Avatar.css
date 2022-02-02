@@ -1,0 +1,42 @@
+.avatar-rd{
+    border-radius: 50%;
+    background-color: var(--white-color);
+    cursor: pointer;
+}
+
+.avatar-bx{
+    border-radius: 10%;
+    background-color: var(--white-color);
+    cursor: pointer;
+}
+
+.avatar-img-rd{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.avatar-img-bx{
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+}
+
+.avatar-icon{
+    width: 100%;
+    text-align: center;
+    padding: 0.7rem 0;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.avatar-txt{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
