@@ -1,7 +1,6 @@
 .side-bar{
     font-family: 'Montserrat', sans-serif;
-    flex: 0 0 240px;
+    flex: 0 0 15rem;
     margin-right: 1rem;
-    background-color: #fff;
-    background-color: #dddbdb;
+    background-color: var(--lynx-white);
 }
