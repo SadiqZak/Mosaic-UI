@@ -6,6 +6,7 @@
 @import "/Components/Button/button.css";
 @import "/Components/Alert/alert.css";
 @import "/Components/Images/image.css";
+@import "/Components/Input/input.css";
 
 * {
     box-sizing: border-box;
@@ -195,6 +196,10 @@ h2, h3, h4{
     background-color: var(--green-color);
 }
 
+.bg-grey-lt{
+    background-color: var(--grey-lt);
+}
+
 .color-white{
     color: var(--white-color);
 }
@@ -262,6 +267,10 @@ h2, h3, h4{
 
 .ht-26{
     height: 1.625rem;
+}
+
+.ht-32{
+    height: 2rem;
 }
 
 .ht-50{
