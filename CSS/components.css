@@ -302,3 +302,13 @@ h2, h3, h4{
 .border-1{
     border: 1px solid var(--black-color) ;
 }
+
+/* --------------------margin---------------- */
+
+.mg-tp-1{
+    margin-top: 1rem;
+}
+
+.mg-bt-1{
+    margin-bottom: 1rem;
+}

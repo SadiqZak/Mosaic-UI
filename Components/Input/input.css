@@ -32,6 +32,14 @@
     padding: 0.2rem;
 }
 
+.input-bottom-txt-overlay{
+    position: absolute;
+    left: 0.625rem;
+    font-size: 0.7rem;
+    font-weight:600;
+    padding: 0.2rem 0 0 0;
+}
+
 .input-txt-overlay{
     position: absolute;
     top: -0.625rem;
@@ -45,8 +53,17 @@
 .input-border{
     border: 1px solid var(--lynx-grey);
 }
+
+.input-border-error{
+    border: 1px solid var(--primary-color);
+}
+
 .input-bottom-border{
     width: 100%;
     border-bottom: 1px solid var(--black-color);
 }
 
+.input-bottom-border-error{
+    width: 100%;
+    border-bottom: 1px solid var(--primary-color);
+}
