@@ -8,6 +8,7 @@
 @import "/Components/Images/image.css";
 @import "/Components/Input/input.css";
 
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -32,7 +33,7 @@ body{
     width: 100%;
     margin: 50px auto 0;
     display: flex;
-    padding: 0 1rem;
+    padding: 0 2rem;
 }
 
 .container-tertiary{
@@ -185,6 +186,10 @@ h2, h3, h4{
     background-color: var(--white-color);
 }
 
+.bg-lynx-white{
+    background-color: var(--lynx-white);
+}
+
 .bg-red{
     background-color: var(--primary-color);
 }
@@ -211,6 +216,11 @@ h2, h3, h4{
 .color-red{
     color: var(--primary-color);
 }
+
+.color-black{
+    color: var(--black-color);
+}
+
 
 .center{
     justify-content: center;
@@ -311,4 +321,12 @@ h2, h3, h4{
 
 .mg-bt-1{
     margin-bottom: 1rem;
+}
+
+.mg-rt-1{
+    margin-right: 1rem;
+}
+
+.mg-rt-2{
+    margin-right: 2rem;
 }
