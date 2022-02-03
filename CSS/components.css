@@ -5,6 +5,7 @@
 @import "/Components/Badge/badge.css";
 @import "/Components/Button/button.css";
 @import "/Components/Alert/alert.css";
+@import "/Components/Images/image.css";
 
 * {
     box-sizing: border-box;
@@ -269,6 +270,10 @@ h2, h3, h4{
 
 .ht-64{
     height: 4rem;
+}
+
+.ht-300{
+    height: 18.75rem;
 }
 
 /* box shadow */
