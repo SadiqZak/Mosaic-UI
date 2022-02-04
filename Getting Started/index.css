@@ -1,6 +1,7 @@
 a{
     text-decoration: none;
 }
+
 .hero-logo{
     color: var(--action-color);
     font-weight: 900;
