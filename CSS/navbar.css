@@ -1,8 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:wght@400;900&display=swap');
+
 .nav-container{
     padding: 2.5rem 1rem;
     width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--lynx-white);
 }
+
+.logo{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    flex-grow: 1;
+    font-weight: 900;
+    font-size: 1.2rem;
+    color: var(--black-color);
+}
+
+.logo:hover{
+    color: var(--action-color);
+    transition: ease-in-out 0.5s;
+}
+
+.secondary-links{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
