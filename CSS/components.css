@@ -8,6 +8,9 @@
 @import "/Components/Images/image.css";
 @import "/Components/Input/input.css";
 
+@import "/Typography/Heading/heading.css";
+@import "/Typography/Text/text.css";
+
 
 * {
     box-sizing: border-box;
@@ -221,6 +224,9 @@ h2, h3, h4{
     color: var(--black-color);
 }
 
+.color-grey{
+    color: var(--grey-color);
+}
 
 .center{
     justify-content: center;
