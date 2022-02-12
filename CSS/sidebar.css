@@ -1,6 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:wght@400;900&display=swap');
+
+ul,li,a{
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+    padding: 0.5rem 0;
+}
+
 .side-bar{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     flex: 0 0 15rem;
     margin-right: 1rem;
-    background-color: var(--lynx-white);
+}
+
+.bottom-border{
+    width: 100%;
+    border-bottom: 1px solid var(--grey-color);
 }

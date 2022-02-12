@@ -5,6 +5,12 @@
 @import "/Components/Badge/badge.css";
 @import "/Components/Button/button.css";
 @import "/Components/Alert/alert.css";
+@import "/Components/Images/image.css";
+@import "/Components/Input/input.css";
+
+@import "/Typography/Heading/heading.css";
+@import "/Typography/Text/text.css";
+
 
 * {
     box-sizing: border-box;
@@ -28,14 +34,14 @@ body{
 
 .container-secondary{
     width: 100%;
-    margin: 50px auto 0;
+    margin: 3.125rem auto 0;
     display: flex;
-    padding: 0 1rem;
+    padding: 0 2rem;
 }
 
 .container-tertiary{
     min-width: 0;
-    margin: 0px auto;
+    margin: 0 auto;
     max-width: 800px;
     flex:1 1 0%;
 }
@@ -183,6 +189,10 @@ h2, h3, h4{
     background-color: var(--white-color);
 }
 
+.bg-lynx-white{
+    background-color: var(--lynx-white);
+}
+
 .bg-red{
     background-color: var(--primary-color);
 }
@@ -194,8 +204,9 @@ h2, h3, h4{
     background-color: var(--green-color);
 }
 
-.bg-grey{
-    background-color: var(--grey-color);
+
+.bg-grey-lt{
+    background-color: var(--grey-lt);
 }
 
 .color-white{
@@ -208,6 +219,14 @@ h2, h3, h4{
 
 .color-red{
     color: var(--primary-color);
+}
+
+.color-black{
+    color: var(--black-color);
+}
+
+.color-grey{
+    color: var(--grey-color);
 }
 
 .center{
@@ -274,12 +293,24 @@ h2, h3, h4{
     height: 1.625rem;
 }
 
+.ht-32{
+    height: 2rem;
+}
+
 .ht-50{
     height: 3.125rem;
 }
 
 .ht-64{
     height: 4rem;
+}
+
+.ht-100{
+    height: 6.25rem;
+}
+
+.ht-300{
+    height: 18.75rem;
 }
 
 /* box shadow */
@@ -299,3 +330,51 @@ h2, h3, h4{
 .border-1{
     border: 1px solid var(--black-color) ;
 }
+
+/* --------------------margin---------------- */
+
+.mg-tp-1{
+    margin-top: 1rem;
+}
+
+.mg-bt-1{
+    margin-bottom: 1rem;
+}
+
+.mg-bt-2{
+    margin-bottom: 2rem;
+}
+
+.mg-rt-1{
+    margin-right: 1rem;
+}
+
+.mg-rt-2{
+    margin-right: 2rem;
+}
+
+/* ----------------------line height ----------------------*/
+.line-ht-1{
+    line-height: 1rem;
+}
+
+.line-ht-1-5{
+    line-height: 1.5rem;
+}
+
+.line-ht-2{
+    line-height: 2rem;
+}
+
+.line-ht-3{
+    line-height: 3rem;
+}
+
+.line-ht-4{
+    line-height: 4rem;
+}
+
+.line-ht-5{
+    line-height: 5rem;
+}
+
