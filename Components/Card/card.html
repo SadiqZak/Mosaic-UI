@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Card-Components</title>
+    <title>Card</title>
     <link rel="stylesheet" href="/CSS/components.css">
     <link rel="stylesheet" href="/CSS/navbar.css">
     <link rel="stylesheet" href="/CSS/sidebar.css">
@@ -16,12 +16,41 @@
     <div class="container">
 
         <nav class="nav-container">
-            <h2>---NAV_BAR---</h2>
+            <!-- <h2>---NAV_BAR---</h2> -->
+            <a class="logo" href="/Index.html">M O S A I C</a>
+            <div>
+                <a class="secondary-links mg-rt-2 color-blue" href="/Getting Started/main.html">Docs</a>
+                <a class="secondary-links color-black" href="https://github.com/SadiqZak/Mosaic-UI">GitHub</a>
+            </div>
         </nav>
 
         <div class="container-secondary">
             <div class="side-bar">
-                <h2>---SIDE_BAR---</h2>
+                <!-- <h2>---SIDE_BAR---</h2> -->
+                <ul>
+                    <li class="bd-600">Get Started</li>
+                    <li><a class="color-black" href="/Getting Started/main.html">Introduction</a></li>
+                </ul>
+                <div class="bottom-border"></div>
+
+                <ul>
+                    <li class="bd-600">Components</li>
+                    <li><a class="color-black" href="/Components/Alert/alert.html">Alerts</a></li>
+                    <li><a class="color-black" href="/Components/Avatar/Avatar.html">Avatar</a></li>
+                    <li><a class="color-black" href="/Components/Badge/badge.html">Badge</a></li>
+                    <li><a class="color-black" href="/Components/Button/button.html">Button</a></li>
+                    <li><a class="color-blue" href="/Components/Card/card.html">Card</a></li>
+                    <li><a class="color-black" href="/Components/Images/images.html">Images</a></li>
+                    <li><a class="color-black" href="/Components/Input/input.html">Input</a></li>
+                </ul>
+                <div class="bottom-border"></div>
+
+                <ul>
+                    <li class="bd-600">Typography</li>
+                    <li><a class="color-black" href="/Typography/Heading/heading.html">Heading</a></li>
+                    <li><a class="color-black" href="/Typography/Text/text.html">Text</a></li>
+                </ul>
+
             </div>
 
             <div class="container-tertiary">
@@ -45,6 +74,47 @@
                             <div class="card-footer pd-tb-xs bg-blue">
                                 <a href="#">Go to Cart</a>
                             </div>
+                        </div>
+
+                    </div>
+
+                    <div class="code-snippets">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522card%2520card-text-overlay%2520wd-250%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img-large%2522%2520src%253D%2522%252FAssets%252FImages%252Fmens-cotton-jacket-500x500.jpg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-badge%2520bg-lynx-blue%2520badge-left%2520color-white%2520pd-tb-xs%2520pd-rl-s%2520bd%2522%253ENEW%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-badge%2520badge-right%2520bg-lynx-red%2520pd-tb-xs%2520pd-rl-s%2520border-rd%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-heart-o%2520color-white%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2509%2509%253Cdiv%2520class%253D%2522card-body%2520center%2520card-flex-column%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522bd-600%2520pd-t-xs%2522%253EMen%2520Premium%2520Jacket%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%2520class%253D%2522bd-900%2520pd-tb-xs%2522%253E%25E2%2582%25B92000%253C%252Fstrong%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer%2520pd-tb-xs%2520bg-blue%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253EGo%2520to%2520Cart%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2509%253C%252Fdiv%253E%2520%2520%250A%253C%252Fdiv%253E"
+                            style="width: 977px; height: 484px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+
+                <div class="container-child">
+                    <!--Horizontal Cards with badges -->
+                    <h2>Horizontal Cards with badges</h2>
+                    <div class="comp-example-md bg-lynx-white">
+
+                        <!-- component -->
+                        <div class="card card-flex-row wd-500">
+                            <div class="card-wd-50pc">
+                                <img class="card-img-larger" src="/Assets/Images/mens-cotton-jacket-500x500.jpg" alt="">
+                            </div>
+                            <div class="card-body-hz card-flex-column wd-250 pd-l">
+                                <div>
+                                    <small class="bd-600 pd-t-xs">Men Premium Jacket</small>
+                                    <div class="mg-t-xs">
+                                        <strong class="bd-900 pd-t-xs">₹2000 <strike>₹3999</strike></strong>
+                                    </div>
+                                    <small class="bd-600 pd-t-xs">50% off</small>
+                                </div>
+                                <div>
+                                    <div class="card-footer bg-blue pd-tb-xs card-wd-100pc">
+                                        <a href="#">Go to Cart</a>
+                                    </div>
+                                    <div class="card-footer bg-grey pd-tb-xs card-wd-100pc mg-t-xs">
+                                        <a href="#">Remove from Wishlist</a>
+                                    </div>
+                                </div>
+                            </div>
+                            
                         </div>
 
                     </div>
