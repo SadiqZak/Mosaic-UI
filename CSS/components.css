@@ -12,6 +12,7 @@
 @import "/Typography/Text/text.css";
 @import "/Components/Lists/lists.css";
 @import "/Components/Navigation/nav.css";
+@import "/Components/modal/modal.css";
 
 * {
     box-sizing: border-box;
@@ -205,6 +206,9 @@ h2, h3, h4{
     background-color: var(--green-color);
 }
 
+.bg-grey{
+    background-color: var(--grey-color);
+}
 .bg-grey-lt{
     background-color: var(--grey-lt);
 }
@@ -261,6 +265,10 @@ h2, h3, h4{
 
 .wd-100{
     width: 6.25rem;
+}
+
+.wd-200{
+    width: 12.5rem;
 }
 .wd-250{
     width: 15.625rem;

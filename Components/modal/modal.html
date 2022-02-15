@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists</title>
+    <link rel="stylesheet" href="/CSS/components.css">
+    <link rel="stylesheet" href="/CSS/navbar.css">
+    <link rel="stylesheet" href="/CSS/sidebar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <nav class="nav-container">
+            <!-- <h2>---NAV_BAR---</h2> -->
+            <a class="logo" href="/Index.html">M O S A I C</a>
+            <div>
+                <a class="secondary-links mg-rt-2 color-blue" href="/Getting Started/main.html">Docs</a>
+                <a class="secondary-links color-black" href="https://github.com/SadiqZak/Mosaic-UI">GitHub</a>
+            </div>
+        </nav>
+
+        <div class="container-secondary">
+            <div class="side-bar">
+                <!-- <h2>---SIDE_BAR---</h2> -->
+                <ul>
+                    <li class="bd-600">Get Started</li>
+                    <li><a class="color-black" href="/Getting Started/main.html">Introduction</a></li>
+                </ul>
+                <div class="bottom-border"></div>
+
+                <ul>
+                    <li class="bd-600">Components</li>
+                    <li><a class="color-black" href="/Components/Alert/alert.html">Alerts</a></li>
+                    <li><a class="color-black" href="/Components/Avatar/Avatar.html">Avatar</a></li>
+                    <li><a class="color-black" href="/Components/Badge/badge.html">Badge</a></li>
+                    <li><a class="color-black" href="/Components/Button/button.html">Button</a></li>
+                    <li><a class="color-black" href="/Components/Card/card.html">Card</a></li>
+                    <li><a class="color-black" href="/Components/Images/images.html">Images</a></li>
+                    <li><a class="color-black" href="/Components/Input/input.html">Input</a></li>
+                    <li><a class="color-black" href="/Components/Lists/lists.html">Lists</a></li>
+                    <li><a class="color-black" href="/Components/Navigation/nav.html">Navbar</a></li>
+                    <li><a class="color-blue" href="/Components/modal/modal.html">Modal</a></li>
+                </ul>
+                <div class="bottom-border"></div>
+
+                <ul>
+                    <li class="bd-600">Typography</li>
+                    <li><a class="color-black" href="/Typography/Heading/heading.html">Heading</a></li>
+                    <li><a class="color-black" href="/Typography/Text/text.html">Text</a></li>
+                </ul>
+
+            </div>
+
+            <div class="container-tertiary">
+                <h1>Modal</h1>
+
+               <div class="container-child">
+                    <!-- Modal -->
+                    <h2>Modal</h2>
+                    <div class="comp-example-md flex-col">
+
+                        <!-- component -->
+                        <div class="modal wd-350" tabindex="-1" role="dialog">
+                            <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title">Modal title</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+                                <div class="modal-body">
+                                  <p>Modal body text goes here.</p>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="modal-btn bg-blue color-white">Save changes</button>
+                                  <button type="button" class="modal-btn bg-grey color-white" data-dismiss="modal">Close</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                    </div>
+
+                    <div class="code-snippets">
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal%2520wd-350%2522%2520tabindex%253D%2522-1%2522%2520role%253D%2522dialog%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-dialog%2522%2520role%253D%2522document%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%2520class%253D%2522modal-title%2522%253EModal%2520title%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522close%2522%2520data-dismiss%253D%2522modal%2522%2520aria-label%253D%2522Close%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EModal%2520body%2520text%2520goes%2520here.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522modal-btn%2520bg-blue%2520color-white%2522%253ESave%2520changes%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522modal-btn%2520bg-grey%2520color-white%2522%2520data-dismiss%253D%2522modal%2522%253EClose%253C%252Fbutton%253E%250A%2520%2509%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2520%2520%2520%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                        style="width: 1024px; height: 591px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+        </div>
+</body>
+
+</html>
