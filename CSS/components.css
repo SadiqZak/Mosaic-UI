@@ -10,7 +10,7 @@
 
 @import "/Typography/Heading/heading.css";
 @import "/Typography/Text/text.css";
-
+@import "/Components/Lists/lists.css";
 
 * {
     box-sizing: border-box;
@@ -22,7 +22,7 @@ body{
     width: 100%;
     min-height: 100vh;
     max-height: max-content;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container{
@@ -370,3 +370,7 @@ h2, h3, h4{
     line-height: 5rem;
 }
 
+/* font size */
+.fs-xs{
+    font-size: 0.8rem;
+}
