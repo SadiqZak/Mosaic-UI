@@ -11,6 +11,7 @@
 @import "/Typography/Heading/heading.css";
 @import "/Typography/Text/text.css";
 @import "/Components/Lists/lists.css";
+@import "/Components/Navigation/nav.css";
 
 * {
     box-sizing: border-box;
