@@ -13,6 +13,7 @@
 @import "/Components/Lists/lists.css";
 @import "/Components/Navigation/nav.css";
 @import "/Components/modal/modal.css";
+@import "/Components/rating/rating.css";
 
 * {
     box-sizing: border-box;
@@ -220,7 +221,9 @@ h2, h3, h4{
 .color-blue{
     color: var(--action-color);
 }
-
+.color-yellow{
+    color: var(--yellow-color);
+}
 .color-red{
     color: var(--primary-color);
 }
