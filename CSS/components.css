@@ -206,9 +206,11 @@ h2, h3, h4{
     background-color: var(--green-color);
 }
 
+
 .bg-grey{
     background-color: var(--grey-color);
 }
+
 .bg-grey-lt{
     background-color: var(--grey-lt);
 }
@@ -247,6 +249,10 @@ h2, h3, h4{
 
 
 /* width */
+.wd-50-pc{
+    width: 50%;
+}
+
 .wd-24{
     width: 1.5rem;
 }
@@ -286,6 +292,9 @@ h2, h3, h4{
     width: 21.875rem;
 }
 
+.wd-500{
+    width: 31.25rem;
+}
 .ht-24{
     height: 1.5rem;
 }

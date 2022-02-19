@@ -9,7 +9,8 @@
 }
 
 .placeholder{
-    background-color: var(--grey-color);
+    box-sizing: border-box;
+    background-color: var(--lynx-white);
     width: 100%;
     border-radius: 0.625rem;
     display: flex;
