@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toast</title>
+    <link rel="stylesheet" href="/CSS/components.css">
+    <link rel="stylesheet" href="/CSS/navbar.css">
+    <link rel="stylesheet" href="/CSS/sidebar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <nav class="nav-container">
+            <!-- <h2>---NAV_BAR---</h2> -->
+            <a class="logo" href="/Index.html">M O S A I C</a>
+            <div>
+                <a class="secondary-links mg-rt-2 color-blue" href="/Getting Started/main.html">Docs</a>
+                <a class="secondary-links color-black" href="https://github.com/SadiqZak/Mosaic-UI">GitHub</a>
+            </div>
+        </nav>
+
+        <div class="container-secondary">
+            <div class="side-bar">
+                <!-- <h2>---SIDE_BAR---</h2> -->
+                <ul>
+                    <li class="bd-600">Get Started</li>
+                    <li><a class="color-black" href="/Getting Started/main.html">Introduction</a></li>
+                </ul>
+                <div class="bottom-border"></div>
+
+                <ul>
+                    <li class="bd-600">Components</li>
+                    <li><a class="color-black" href="/Components/Alert/alert.html">Alerts</a></li>
+                    <li><a class="color-black" href="/Components/Avatar/Avatar.html">Avatar</a></li>
+                    <li><a class="color-black" href="/Components/Badge/badge.html">Badge</a></li>
+                    <li><a class="color-black" href="/Components/Button/button.html">Button</a></li>
+                    <li><a class="color-black" href="/Components/Card/card.html">Card</a></li>
+                    <li><a class="color-black" href="/Components/Images/images.html">Images</a></li>
+                    <li><a class="color-black" href="/Components/Input/input.html">Input</a></li>
+                    <li><a class="color-black" href="/Components/Lists/lists.html">Lists</a></li>
+                    <li><a class="color-black" href="/Components/Navigation/nav.html">Navbar</a></li>
+                    <li><a class="color-black" href="/Components/modal/modal.html">Modal</a></li>
+                    <li><a class="color-black" href="/Components/rating/rating.html">Rating</a></li>
+                    <li><a class="color-blue" href="/Components/Toast/toast.html">Toast</a></li>
+                    <li><a class="color-black" href="/Components/Simplified_Grid/grid.html">Simplified Grid</a></li>
+                </ul>
+                <div class="bottom-border"></div>
+
+                <ul>
+                    <li class="bd-600">Typography</li>
+                    <li><a class="color-black" href="/Typography/Heading/heading.html">Heading</a></li>
+                    <li><a class="color-black" href="/Typography/Text/text.html">Text</a></li>
+                </ul>
+
+            </div>
+
+            <div class="container-tertiary">
+                <h1>Toast</h1>
+                <p class="P-16 line-ht-2">Toasts are lightweight notifications designed to mimic the push notifications that have been popularized by mobile and desktop operating systems. They’re built with flexbox, so they’re easy to align and position.</p>
+               <div class="container-child">
+                    <!-- toast-->
+                    <h2>Toast</h2>
+                    <div class="comp-example-md flex-col">
+
+                        <!-- component -->
+                        <div class="toast wd-350">
+                            <div class="toast-header">
+                                <div class="toast-header-secondary">
+                                    <div>Header</div>
+                                    <button class="close"><span aria-hidden="true">&times;</span></button>
+                                </div>
+                            </div>
+                            <div class="toast-body">
+                                Hello World! this is a toast message.
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="code-snippets">
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast%2520wd-350%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast-header-secondary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253EHeader%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522close%2522%253E%253Cspan%2520aria-hidden%253D%2522true%2522%253E%2526times%253B%253C%252Fspan%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Hello%2520World%21%2520this%2520is%2520a%2520toast%2520message.%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 847px; height: 402px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                      </iframe>
+                    </div>
+                </div>
+
+                
+               <div class="container-child">
+                <!-- snackbar-->
+                <h2>Snackbar</h2>
+                <div class="comp-example-md flex-col">
+
+                    <!-- component -->
+                    <div class="toast wd-350 bg-blue">
+                        <div class="toast-header">
+                            <div class="toast-header-secondary">
+                                <div class="bd color-white">Archived</div>
+                                <div class="snackbar-action">
+                                    <button class="close snackbar-ft bg-blue color-white">Undo</button>
+                                    <button class="close bg-blue"><span aria-hidden="true">&times;</span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="code-snippets">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast%2520wd-350%2520bg-blue%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast-header-secondary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522bd%2520color-white%2522%253EArchived%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522snackbar-action%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522close%2520snackbar-ft%2520bg-blue%2520color-white%2522%253EUndo%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522close%2520bg-blue%2522%253E%253Cspan%2520aria-hidden%253D%2522true%2522%253E%2526times%253B%253C%252Fspan%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 941px; height: 402px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
